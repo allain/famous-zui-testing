@@ -24,8 +24,8 @@ define(function(require, exports, module) {
 
   mainContext.add(scaleModifier).add(container);
 
+  //TODO: handle window resize better
   var size = [window.innerWidth, window.innerHeight];
-
 
   for (var i=0; i < panelCount; i++) {
     var col = Math.floor(i % 5);
