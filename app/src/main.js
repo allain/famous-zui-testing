@@ -44,7 +44,7 @@ define(function(require, exports, module) {
     container.add(panelModifier).add(panel);
 
     (function(i, panel, col, row) {
-      panel.on('dblclick', function(e) {
+      panel.on('click', function(e) {
         var transform;
 
         if (zoomed) {
